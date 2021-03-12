@@ -16,7 +16,9 @@ printBmi(178, 130)>> 印出 console.log 文字為「您的體重重度肥胖」
 printBmi("身高","體重")>> 印出 console.log 文字為「您的數值輸入錯誤，請重新輸入」
 
 
-第二階段：請程式碼裡加入此變數，並嘗試運用此變數裡的資訊。
+第二階段：請程式碼裡加入此變數
+https://codepen.io/hexschool/pen/NWbqjPQ?editors=1010
+，並嘗試運用此變數裡的資訊。
 printBmi(178, 20) >> 印出 console.log 文字為「您的體重過輕，健康指數為藍色」
 printBmi(178, 70) >> 印出 console.log 文字為「您的體重正常，健康指數為紅色」
 printBmi(178, 85)>> 印出 console.log 文字為「您的體重過重，健康指數為澄色」
@@ -24,6 +26,8 @@ printBmi(178, 90)>> 印出 console.log 文字為「您的體重輕度肥胖，�
 printBmi(178, 110)>> 印出 console.log 文字為「您的體重中度肥胖，健康指數為黑色」
 printBmi(178, 130)>> 印出 console.log 文字為「您的體重重度肥胖，健康指數為綠色」
 printBmi("身高","體重")>> 印出 console.log 文字為「您的數值輸入錯誤，請重新輸入」
+
+
 第三階段：儲存每筆計算資料，多一個變數為 bmiHistoryData，並賦予空陣列來儲存計算物件資料，若數值輸入錯誤，則不儲存。
 printBmi(178, 20) >> 印出 console.log 文字為「您的體重過輕，健康指數為藍色」
 printBmi(178, 70) >> 印出 console.log 文字為「您的體重正常，健康指數為紅色」
