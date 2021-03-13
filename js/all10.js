@@ -73,15 +73,15 @@
       bmiStatesText('mildFat');
       addData(bmi, 'mildFat')
     } else if (30 <= bmi && bmi < 35) {
-      //severeFat
+      //moderateFat
       //console.log('您的體重中度肥胖');
+      bmiStatesText('moderateFat');
+      addData(bmi, 'moderateFat')
+    } else if (35 <= bmi) {
+      //severeFat
+      //console.log('您的體重重度肥胖');
       bmiStatesText('severeFat');
       addData(bmi, 'severeFat')
-    } else if (35 <= bmi) {
-      //moderateFat
-      //console.log('您的體重重度肥胖');
-      bmiStatesText('moderateFat');
-      addData(bmi, 'overThin')
     } else {
       console.log('您的數值輸入錯誤，請重新輸入');
     }
